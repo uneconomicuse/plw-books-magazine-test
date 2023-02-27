@@ -1,0 +1,23 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "tests for shopping cart",
+  "main": "playwright.config.js",
+  "scripts": {},
+  "author": "Roman Rafikov",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.31.1",
+    "allure-commandline": "^2.20.1",
+    "allure-playwright": "^2.0.0-beta.25"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.5",
+    "dotenv": "^16.0.3",
+    "mysql": "github:mysqljs/mysql",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0",
+    "winston": "^3.8.2"
+  }
+}
